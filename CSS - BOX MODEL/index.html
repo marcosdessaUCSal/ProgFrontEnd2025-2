@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style id="estilo-mutante">
+
+    </style>
+</head>
+
+<body>
+    <p class="titulo">LABORATÓRIO DE CSS</p>
+
+    <!-- AMOSTRA -->
+    <div class="container-amostra">
+        <div id="amostra" class="vazio">
+            <p>Est proident quis non magna eiusmod deserunt ullamco voluptate nostrud nulla aliqua enim consequat elit.
+                Non
+                do proident nostrud eiusmod incididunt do est culpa ad nulla ea nisi Lorem. Magna laborum dolor amet
+                consectetur fugiat. Eu dolor eiusmod veniam sunt labore officia cillum pariatur culpa. Qui in ullamco
+                esse
+                minim commodo.</p>
+        </div>
+    </div>
+
+    <!-- SELETOR DE ESTILOS -->
+    <div class="container-seletor">
+        <span>Selecione um estilo:</span>
+        <select name="estilos" id="dropbox" onchange="escolher()" class="seletor">
+            <option value="0">VAZIO</option>
+            <option value="1">Estilo 1</option>
+            <option value="2">Estilo 2</option>
+        </select>
+    </div>
+
+    <!-- CONTEÚDO EDITOR CSS -->
+    <div id="conteudo-css" class="container-seletor">
+        <textarea id="texto" class="text-conteudo" spellcheck="false"></textarea>
+    </div>
+    <button class="btn" onclick="enviar()">ENVIAR</button>
+
+    <script src="script.js""></script>
+</body>
+
+</html>
