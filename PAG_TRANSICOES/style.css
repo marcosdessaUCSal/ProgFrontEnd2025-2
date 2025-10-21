@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: goldenrod;
+    background-color: rgb(128, 125, 150);
+    font-family: Share Tech;
+    text-align: center;
+    font-weight: 900;
+}
+
+body h2 {
+    text-shadow: 3px 3px black;
+}
+
+header {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.container {
+    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgb(143, 136, 127);
+    text-align: left;
+    width: 80%;
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 40px 30px 40px;
+    border-radius: 6px;
+    border-width: 30px 4px 10px 1px;
+    border-color: rgb(33, 29, 61);;
+    border-style: solid;
+    box-shadow: 0 10px 16px 1px rgb(0, 0, 0, 0.6);
+}
+
+.titulo-fechado {
+    display: block;
+}
+
+.card {
+    transition:
+        background-color 1s ease,
+        color 1.5s ease,
+        font-size 0.7s ease,
+        height 0.4s ease,
+        width 0.2s ease,
+        padding 1s ease,
+        margin-left 1s ease,
+        opacity 3.5s ease,
+        border-radius 0.7s ease;
+}
+
+.card-pessoa {
+    color: black;
+    align-items: center;
+    min-height: 30px;
+    width: 50%;
+    min-width: 300px;
+    height: 2em;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border: 5px solid goldenrod;
+    border-radius: 2.2em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px 5px 1px rgb(0, 0, 0, 0.5);
+}
+
+.card-pessoa-select {
+    height: 400px;
+    width: 95%;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 5px solid darkgoldenrod;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: rgba(243, 233, 233, 0.5);
+    box-shadow: 0 2px 2px 1px #1E3A8A;
+}
+
+.card-pessoa:hover {
+    border: 5px solid black;
+    color: black;
+}
+
+.conteudo {
+    color: darkslategray;
+    font-size: 1.2rem;
+    transition: opacity 1.5s ease;
+}
+
+.escondido {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.visivel {
+    opacity: 1;
+    visibility: visible;
+}
+
+.parte-fig-text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-fig {
+    width: 1000px;
+}
+
+.container-fig img {
+    width: auto;
+    max-width: 500px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+.container-info {
+    height: 100%;
+    margin-left: 20px;
+    width: 100%;
+    align-items: center;
+
+}
+
