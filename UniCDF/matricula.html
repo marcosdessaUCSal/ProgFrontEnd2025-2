@@ -1,0 +1,34 @@
+<div class="matricula">
+
+    <!-- TÍTULO: EDITANDO OU MATRICULANDO -->
+    <div class="titulo">
+        <div id="matr-titulo">MATRICULANDO</div>
+    </div>
+
+    <div class="aluno-form">
+        <div id="id-matr-id" hidden>-1</div>
+        <div class="matr-linha-input">
+            <div class="rotulo">Nome</div>
+            <div class="campo"><input id="id-matr-nome" type="text" class="campo nome"></div>
+        </div>
+        <div class="matr-linha-input">
+            <div class="rotulo">Matrícula</div>
+            <div class="campo"><input id="id-matr-matricula" type="text" class="campo"></div>
+        </div>
+        <div class="matr-linha-input">
+            <div class="rotulo">CPF</div>
+            <div class="campo"><input id="id-matr-cpf" type="text" class="campo"></div>
+        </div>
+        <div class="matr-linha-input-notas">
+            <div class="rotulo">Notas</div>
+            <div class="campo"><input id="id-matr-nota1" type="number" class="campo nota"></div>
+            <div class="campo"><input id="id-matr-nota2" type="number" class="campo nota"></div>
+            <div class="campo"></div>
+        </div>
+    </div>
+    <!-- BOTÕES PARA FORMULÁRIO -->
+    <div class="painel-botoes">
+        <div class="btn" onclick="matricular()">ENVIAR</div>
+        <div class="btn" onclick="cancelarMatricula()">CANCELAR</div>
+    </div>
+</div>

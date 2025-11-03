@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniCDF</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-alunos.css">
+    <link rel="stylesheet" href="assets/css/style-matricula.css">
+    <link rel="stylesheet" href="assets/css/style-institucional.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- HEADER: cabeçalho -->
+        <header class="meu-header">
+            <div class="figura">
+                <img src="assets/img/einstein-svgrepo-com.svg" alt="">
+            </div>
+
+            <hgroup>
+                <h1>Faculdade <span class="unicdf">UniCDF</span></h1>
+                <h3>Aqui você ganha um <span class="unicdf">certificado de CDF</span> !</h3>
+            </hgroup>
+        </header>
+
+        <div class="conteudo">
+            <!-- NAV: navegação -->
+            <nav class="meu-nav">
+                <h2>Meu CDF</h2>
+
+                <ul class="opcoes">
+                    <li id="id_inst" onclick="pagInstitucional()">Institucional</li>
+                    <li id="id_alunos" onclick="pagAlunos()">Alunos</li>
+                    <li id="id_matricula" onclick="pagMatricula()">Matrícula</li>
+                </ul>
+                <h2>PARCEIROS</h2>
+                <ul class="opcoes2">
+                    <li>Parceiro 1</li>
+                    <li>Parceiro 2</li>
+                    <li>Parceiro 3</li>
+                </ul>
+            </nav>
+
+            <!-- SECTION: a parte principal onde está o artigo -->
+            <section id="minha-section">
+            </section>
+        </div>
+
+        <!-- FOOTER: rodapé -->
+        <footer class="meu-footer">
+            &copy; 2024 | Cookies | Fale conosco | cdf@email.com
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

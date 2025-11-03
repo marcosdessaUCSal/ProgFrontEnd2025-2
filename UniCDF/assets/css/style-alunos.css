@@ -1,0 +1,128 @@
+.alunos {
+    padding: 10px;
+    background-color: burlywood;
+    width: 100%;
+    height: 100%;
+}
+
+.painel-botoes {
+    background: linear-gradient(to right, rgb(0, 0, 0, 0.3) 0%, transparent 100%);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: fit-content;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.ordenar {
+    color: white;
+    margin-left: 10px;
+}
+
+.btn {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.7);
+}
+
+.btn:active {
+    background-color: darkgoldenrod;
+}
+
+.slot-alunos {
+    margin-top: 5px;
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.card-aluno {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.7);
+    background: linear-gradient(to right, rgba(211, 209, 209, 0.4) 0%, rgb(255, 255, 255, 0.6) 50%);
+}
+
+/* .card-aluno:hover {
+    background-color: white;
+    box-shadow: -20px 0px 40px 0px rgb(255, 255, 255, 1);
+} */
+
+.card-aluno .est-linha-1 {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.card-aluno .est-linha-2 {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr;
+}
+
+.est-btns {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 6px 4px 0px rgb(0, 0, 0, 0.7);
+}
+
+.card-aluno .campo {
+    color: darkred;
+}
+
+.card-aluno .campo-nome {
+    color: darkred;
+    /* background-color: rgb(255, 255, 255, 0.7); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, transparent 70%);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.card-aluno .rotulo {
+    color: darkblue;
+}
+
+.btn-del {
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: firebrick;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.btn-edit {
+    padding: 5px;
+    margin-left: 30px;
+    color: darkred;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.btn-edit:hover {
+    box-shadow: 1px 3px 6px 2px rgb(55, 55, 55, 1);
+}
+
+.btn-del:hover {
+    background-color: orange;
+    box-shadow: 1px 3px 6px 2px red;
+}

@@ -1,0 +1,21 @@
+<div id="card-${id}" class="card-aluno">
+    <div class="est-linha-1">
+        <div class="rotulo">Nome:</div>
+        <div class="campo-nome">${nome}</div>
+    </div>
+    <div class="est-linha-2">
+        <div class="rotulo">Matrícula:</div>
+        <div class="campo">${matricula}</div>
+        <div class="rotulo">CPF:</div>
+        <div class="campo">${cpf}</div>
+    </div>
+    <div class="est-linha-2">
+        <div><span class="rotulo">Nota 1: </span> <span class="campo">${nota1}</span></div>
+        <div><span class="rotulo">Nota 2: </span> <span class="campo">${nota2}</span></div>
+        <div><span class="rotulo">Média: </span> <span class="campo">${media}</span></div>
+        <div class="rotulo">
+            <span class="btn-edit" onclick="edit(`${id}`)">EDIT</span>
+            <span class="btn-del" onclick="del(`${id}`)">DEL</span>
+        </div>
+    </div>
+</div>
