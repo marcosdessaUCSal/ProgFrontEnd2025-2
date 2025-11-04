@@ -59,11 +59,6 @@
     background: linear-gradient(to right, rgba(211, 209, 209, 0.4) 0%, rgb(255, 255, 255, 0.6) 50%);
 }
 
-/* .card-aluno:hover {
-    background-color: white;
-    box-shadow: -20px 0px 40px 0px rgb(255, 255, 255, 1);
-} */
-
 .card-aluno .est-linha-1 {
     margin-top: 5px;
     display: grid;

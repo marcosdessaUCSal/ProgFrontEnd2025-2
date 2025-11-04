@@ -29,7 +29,6 @@ function pagInstitucional() {
         .then(response => response.text())
         .then(dados => {
             minhaSection.innerHTML = dados;
-            // document.getElementById('canvas-section').style.visibility = 'hidden';
         })
         .catch(
             e => {
